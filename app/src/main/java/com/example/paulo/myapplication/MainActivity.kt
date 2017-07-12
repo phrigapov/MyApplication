@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         var result = calcula(nota1,nota2).toString()
 
         //textView.text = Editable.Factory.getInstance().newEditable(result)
-        textView.text = result
+        textView.text = result + " Parabéns Igor"
 
     }
 }
